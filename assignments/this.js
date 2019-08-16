@@ -67,8 +67,8 @@ function Person(greeter) {
 // const Dave = new Person('Dave');
 // const David = new Person('David');
 
-David.speak.call(dave);
-Dave.speak.apply(david);
+David.speak.call(Dave);
+Dave.speak.apply(David);
 
 Dave.speak();
 David.speak();
